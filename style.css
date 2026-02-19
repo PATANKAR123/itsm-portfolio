@@ -92,11 +92,22 @@ nav ul li a {
 }
 
 .card {
-    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
     font-weight: bold;
+    color: #0f2027;
+    background: linear-gradient(135deg, #e0f7ff, #b3ecff);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 5px solid #00d9ff;
+}
+
+/* Hover Effect */
+.card:hover {
+    background: linear-gradient(135deg, #164d57, #141516);
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 
 .timeline {
@@ -141,3 +152,4 @@ footer {
         margin: 10px;
     }
 }
+
